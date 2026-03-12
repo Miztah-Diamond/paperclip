@@ -1,0 +1,15 @@
+{
+  "name": "paperclip-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to control your Paperclip instance",
+  "type": "module",
+  "main": "bot.mjs",
+  "scripts": {
+    "start": "node bot.mjs",
+    "dev": "PAPERCLIP_API_URL=http://localhost:3100 node bot.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
